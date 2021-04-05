@@ -2,6 +2,7 @@
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
+  “homepage”: “http://{imamk8114}.github.io/{netflix-clone}",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
@@ -10,7 +11,6 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1",
-    “homepage”: “http://{imamk8114}.github.io/{netflix-clone}"
   },
   "scripts": {
     "start": "react-scripts start",
