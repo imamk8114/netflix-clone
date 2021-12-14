@@ -17,7 +17,7 @@
 
 
 .row_poster{
-    object-file: contain;
+    object-fit: contain;
     width: 100%;
     max-height: 100px;
     transition: transform 450ms;
