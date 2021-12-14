@@ -2,6 +2,7 @@
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://imamk8114.github.io/netflix-clone",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.10",
@@ -11,14 +12,20 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+<<<<<<< HEAD
     "save-dev": "0.0.1-security",
     "web-vitals": "^1.1.1"
+=======
+    "web-vitals": "^1.1.1",
+>>>>>>> 68013ad9217bd4ad59c9fa499067e8ca0af1cdc7
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
